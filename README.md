@@ -12,6 +12,8 @@ TODO list
 1) Distance between one partition versus many partitions, vectorized computation (no for loop). Useful when there is 'true partition' and have posterior samples of partition.
 2) Bug in the classificaton error metric, when k = length(unique(p)) > k' = length(unique(q)).
 3) Binder loss and related loss functions missing
+4) Only accepting input as "Partition" S4 class makes package unaccessible. 
+5) Canonical representation of partition. c(1,2,2,3) and c(2,3,3,1) should be the same when converted to the class "Partition". 
 
 0.2.5
   - Changed maintainer information and updated URL/BugReports links
