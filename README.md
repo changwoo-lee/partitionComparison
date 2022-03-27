@@ -7,6 +7,12 @@ For more details, see the package details on CRAN (https://cran.r-project.org/pa
 Changes
 -------
 
+TODO list
+
+1) Distance between one partition versus many partitions, vectorized computation (no for loop). Useful when there is 'true partition' and have posterior samples of partition.
+2) Bug in the classificaton error metric, when k = length(unique(p)) > k' = length(unique(q)).
+3) Binder loss and related loss functions missing
+
 0.2.5
   - Changed maintainer information and updated URL/BugReports links
 
